@@ -13,5 +13,15 @@ public static int Divide(int i,int j)
 {
 	return i/j;
 }
-
+public static int Subtract(int i,int j)
+{
+	if (i>j) {
+		return i-j;
+	} 
+	else
+	{
+		return j-i;
+	}
+	 
+}
 }
